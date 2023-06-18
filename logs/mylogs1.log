@@ -1,72 +1,72 @@
-20230617 11:54:45 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java72 - chromeBrowser opened
-20230617 11:54:48 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java79 - Url entered
-20230617 11:54:48 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java118 - driver in baseTest=ChromeDriver: chrome on WINDOWS (b329c589e0ff6eb3484ef1fa58bb3999)
-20230617 11:54:50 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
-20230617 11:54:50 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
-20230617 11:54:50 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
-20230617 11:54:51 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
-20230617 11:54:53 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
-20230617 11:54:56 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
-20230617 11:54:56 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
-20230617 11:54:56 INFO  [main] automationHomepages.HomePage HomePage.java32 - UserMenu dropdown selected
-20230617 11:54:56 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: My Profile Menu found
-20230617 11:54:56 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: My Settings Menu found
-20230617 11:54:57 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: Developer Console Menu found
-20230617 11:54:57 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: Switch to Lightning Experience Menu found
-20230617 11:54:57 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: Logout Menu found
-20230617 11:55:00 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java86 - Browser closed
-20230617 11:55:02 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java72 - chromeBrowser opened
-20230617 11:55:05 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java79 - Url entered
-20230617 11:55:05 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java118 - driver in baseTest=ChromeDriver: chrome on WINDOWS (40d41cce7499aa0c40ec7f37bf55acfa)
-20230617 11:55:06 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
-20230617 11:55:07 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
-20230617 11:55:07 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
-20230617 11:55:08 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password  is entered to the field
-20230617 11:55:08 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
-20230617 11:55:09 INFO  [main] automationLoginPages.LoginPage LoginPage.java107 - Error message matched
-20230617 11:55:12 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java86 - Browser closed
-20230617 11:55:14 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java72 - chromeBrowser opened
-20230617 11:55:17 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java79 - Url entered
-20230617 11:55:17 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java118 - driver in baseTest=ChromeDriver: chrome on WINDOWS (1ea6c0bbf8db75a812cea7a3e3553fda)
-20230617 11:55:19 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
-20230617 11:55:19 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
-20230617 11:55:19 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
-20230617 11:55:19 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
-20230617 11:55:24 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
-20230617 11:55:24 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
-20230617 11:55:24 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
-20230617 11:55:28 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java86 - Browser closed
-20230617 11:55:30 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java72 - chromeBrowser opened
-20230617 11:55:33 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java79 - Url entered
-20230617 11:55:33 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java118 - driver in baseTest=ChromeDriver: chrome on WINDOWS (f3b581629646e03e533a2a166551a1b5)
-20230617 11:55:34 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
-20230617 11:55:35 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
-20230617 11:55:35 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
-20230617 11:55:35 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password VjVennila2 is entered to the field
-20230617 11:55:35 INFO  [main] automationLoginPages.LoginPage LoginPage.java46 - Remember me checkbox is clicked
-20230617 11:55:37 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
-20230617 11:55:40 INFO  [main] automationbasePage.BasePage BasePage.java49 - Actual title is: Home Page ~ Salesforce - Developer Edition
-20230617 11:55:40 INFO  [main] automationbasePage.BasePage BasePage.java53 - Title matched in the page
-20230617 11:55:40 INFO  [main] automationHomepages.HomePage HomePage.java32 - UserMenu dropdown selected
-20230617 11:55:41 INFO  [main] automationHomepages.HomePage HomePage.java39 - Logout menu selected
-20230617 11:55:44 INFO  [main] automationLoginPages.LoginPage LoginPage.java70 - Pass, username present in login page
-20230617 11:55:47 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java86 - Browser closed
-20230617 11:55:49 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java72 - chromeBrowser opened
-20230617 11:55:52 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java79 - Url entered
-20230617 11:55:52 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java118 - driver in baseTest=ChromeDriver: chrome on WINDOWS (d2ce21bbbdafe917c3857e936f85903a)
-20230617 11:55:53 INFO  [main] automationLoginPages.LoginPage LoginPage.java78 - Forgot password link is clicked
-20230617 11:55:53 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
-20230617 11:55:54 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName rajeeni@tekarch.com is entered to the field
-20230617 11:55:54 INFO  [main] automationLoginPages.ForgotPasswordPage ForgotPasswordPage.java30 - Continue button is clicked
-20230617 11:55:54 INFO  [main] automationLoginPages.ForgotPasswordPage ForgotPasswordPage.java38 - Passed: Check your email message displayed
-20230617 11:55:58 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java86 - Browser closed
-20230617 11:56:00 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java72 - chromeBrowser opened
-20230617 11:56:03 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java79 - Url entered
-20230617 11:56:03 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java118 - driver in baseTest=ChromeDriver: chrome on WINDOWS (e0d8085da5d66de3b5a231cd19068913)
-20230617 11:56:04 INFO  [main] automationbasePage.BasePage BasePage.java79 - UserNameelement cleared 
-20230617 11:56:05 INFO  [main] automationbasePage.BasePage BasePage.java63 - UserName admin1@gmail.com is entered to the field
-20230617 11:56:05 INFO  [main] automationbasePage.BasePage BasePage.java79 - Passwordelement cleared 
-20230617 11:56:05 INFO  [main] automationbasePage.BasePage BasePage.java63 - Password admin1234 is entered to the field
-20230617 11:56:06 INFO  [main] automationbasePage.BasePage BasePage.java92 - Login Button is clicked
-20230617 11:56:07 INFO  [main] automationLoginPages.LoginPage LoginPage.java107 - Error message matched
-20230617 11:56:11 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java86 - Browser closed
+20230617 23:08:42 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java80 - chromeBrowser opened
+20230617 23:08:45 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java87 - Url entered
+20230617 23:08:45 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java137 - driver in baseTest=ChromeDriver: chrome on WINDOWS (5cd7f51e86c7161384a4f14b006faf62)
+20230617 23:08:46 INFO  [main] automationbasePage.BasePage BasePage.java76 - UserNameelement cleared 
+20230617 23:08:46 INFO  [main] automationbasePage.BasePage BasePage.java60 - UserName rajeeni@tekarch.com is entered to the field
+20230617 23:08:47 INFO  [main] automationbasePage.BasePage BasePage.java76 - Passwordelement cleared 
+20230617 23:08:47 INFO  [main] automationbasePage.BasePage BasePage.java60 - Password VjVennila2 is entered to the field
+20230617 23:08:49 INFO  [main] automationbasePage.BasePage BasePage.java89 - Login Button is clicked
+20230617 23:08:52 INFO  [main] automationbasePage.BasePage BasePage.java46 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230617 23:08:52 INFO  [main] automationbasePage.BasePage BasePage.java50 - Title matched in the page
+20230617 23:08:52 INFO  [main] automationHomepages.HomePage HomePage.java32 - UserMenu dropdown selected
+20230617 23:08:52 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: My Profile Menu found
+20230617 23:08:52 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: My Settings Menu found
+20230617 23:08:52 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: Developer Console Menu found
+20230617 23:08:53 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: Switch to Lightning Experience Menu found
+20230617 23:08:53 INFO  [main] automationHomepages.HomePage HomePage.java58 - Passed: Logout Menu found
+20230617 23:08:56 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java94 - Browser closed
+20230617 23:08:58 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java80 - chromeBrowser opened
+20230617 23:09:01 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java87 - Url entered
+20230617 23:09:01 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java137 - driver in baseTest=ChromeDriver: chrome on WINDOWS (a54e73b9cd491ca3d3fdd7bc15298263)
+20230617 23:09:02 INFO  [main] automationbasePage.BasePage BasePage.java76 - UserNameelement cleared 
+20230617 23:09:03 INFO  [main] automationbasePage.BasePage BasePage.java60 - UserName rajeeni@tekarch.com is entered to the field
+20230617 23:09:03 INFO  [main] automationbasePage.BasePage BasePage.java76 - Passwordelement cleared 
+20230617 23:09:03 INFO  [main] automationbasePage.BasePage BasePage.java60 - Password  is entered to the field
+20230617 23:09:04 INFO  [main] automationbasePage.BasePage BasePage.java89 - Login Button is clicked
+20230617 23:09:04 INFO  [main] automationLoginPages.LoginPage LoginPage.java107 - Error message matched
+20230617 23:09:08 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java94 - Browser closed
+20230617 23:09:09 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java80 - chromeBrowser opened
+20230617 23:09:12 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java87 - Url entered
+20230617 23:09:12 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java137 - driver in baseTest=ChromeDriver: chrome on WINDOWS (4167e6a5890d1d15acc43836c4c40f8d)
+20230617 23:09:13 INFO  [main] automationbasePage.BasePage BasePage.java76 - UserNameelement cleared 
+20230617 23:09:13 INFO  [main] automationbasePage.BasePage BasePage.java60 - UserName rajeeni@tekarch.com is entered to the field
+20230617 23:09:14 INFO  [main] automationbasePage.BasePage BasePage.java76 - Passwordelement cleared 
+20230617 23:09:14 INFO  [main] automationbasePage.BasePage BasePage.java60 - Password VjVennila2 is entered to the field
+20230617 23:09:16 INFO  [main] automationbasePage.BasePage BasePage.java89 - Login Button is clicked
+20230617 23:09:19 INFO  [main] automationbasePage.BasePage BasePage.java46 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230617 23:09:19 INFO  [main] automationbasePage.BasePage BasePage.java50 - Title matched in the page
+20230617 23:09:23 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java94 - Browser closed
+20230617 23:09:24 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java80 - chromeBrowser opened
+20230617 23:09:27 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java87 - Url entered
+20230617 23:09:27 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java137 - driver in baseTest=ChromeDriver: chrome on WINDOWS (97d7778fc5a7bd95b1c4246045838095)
+20230617 23:09:28 INFO  [main] automationbasePage.BasePage BasePage.java76 - UserNameelement cleared 
+20230617 23:09:28 INFO  [main] automationbasePage.BasePage BasePage.java60 - UserName rajeeni@tekarch.com is entered to the field
+20230617 23:09:29 INFO  [main] automationbasePage.BasePage BasePage.java76 - Passwordelement cleared 
+20230617 23:09:29 INFO  [main] automationbasePage.BasePage BasePage.java60 - Password VjVennila2 is entered to the field
+20230617 23:09:30 INFO  [main] automationLoginPages.LoginPage LoginPage.java46 - Remember me checkbox is clicked
+20230617 23:09:35 INFO  [main] automationbasePage.BasePage BasePage.java89 - Login Button is clicked
+20230617 23:09:35 INFO  [main] automationbasePage.BasePage BasePage.java46 - Actual title is: Home Page ~ Salesforce - Developer Edition
+20230617 23:09:35 INFO  [main] automationbasePage.BasePage BasePage.java50 - Title matched in the page
+20230617 23:09:35 INFO  [main] automationHomepages.HomePage HomePage.java32 - UserMenu dropdown selected
+20230617 23:09:36 INFO  [main] automationHomepages.HomePage HomePage.java39 - Logout menu selected
+20230617 23:09:39 INFO  [main] automationLoginPages.LoginPage LoginPage.java70 - Pass, username present in login page
+20230617 23:09:42 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java94 - Browser closed
+20230617 23:09:44 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java80 - chromeBrowser opened
+20230617 23:09:47 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java87 - Url entered
+20230617 23:09:47 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java137 - driver in baseTest=ChromeDriver: chrome on WINDOWS (1ecdaf6032e337d3c4b083e4cd9545f5)
+20230617 23:09:47 INFO  [main] automationLoginPages.LoginPage LoginPage.java78 - Forgot password link is clicked
+20230617 23:09:47 INFO  [main] automationbasePage.BasePage BasePage.java76 - UserNameelement cleared 
+20230617 23:09:47 INFO  [main] automationbasePage.BasePage BasePage.java60 - UserName rajeeni@tekarch.com is entered to the field
+20230617 23:09:48 INFO  [main] automationLoginPages.ForgotPasswordPage ForgotPasswordPage.java30 - Continue button is clicked
+20230617 23:09:48 INFO  [main] automationLoginPages.ForgotPasswordPage ForgotPasswordPage.java38 - Passed: Check your email message displayed
+20230617 23:09:52 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java94 - Browser closed
+20230617 23:09:53 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java80 - chromeBrowser opened
+20230617 23:09:56 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java87 - Url entered
+20230617 23:09:56 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java137 - driver in baseTest=ChromeDriver: chrome on WINDOWS (4371c4fef8a5e5e0fc139d971013c01b)
+20230617 23:09:56 INFO  [main] automationbasePage.BasePage BasePage.java76 - UserNameelement cleared 
+20230617 23:09:57 INFO  [main] automationbasePage.BasePage BasePage.java60 - UserName admin1@gmail.com is entered to the field
+20230617 23:09:57 INFO  [main] automationbasePage.BasePage BasePage.java76 - Passwordelement cleared 
+20230617 23:09:58 INFO  [main] automationbasePage.BasePage BasePage.java60 - Password admin1234 is entered to the field
+20230617 23:09:58 INFO  [main] automationbasePage.BasePage BasePage.java89 - Login Button is clicked
+20230617 23:09:59 INFO  [main] automationLoginPages.LoginPage LoginPage.java107 - Error message matched
+20230617 23:10:02 INFO  [main] steps.SalesforceStepDef SalesforceStepDef.java94 - Browser closed

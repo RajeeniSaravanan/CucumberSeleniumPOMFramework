@@ -7,20 +7,26 @@ import io.cucumber.testng.CucumberOptions;
 (
 		features = {"src/test/resources/features/salesforceLoginFeature.feature", 
 				"src/test/resources/features/salesforceHomePageFeature.feature"},
-		glue= {"com.CucumberTest.steps"}
+		glue= {"com.CucumberTest.steps"},
 		
 		/*When monochrome value set to true, 
 		It will make console output for the Cucumber test much 
 		more readable and remove any unreadable character.*/
-		//monochrome = true 
+		monochrome = true,
 		
 		/*dryrun: Setting this option to true checks if all the step definitions 
 		have been implemented without actually running the scenarios. 
 		It can be used to quickly validate the step definitions. 
 		The default value is false.*/
 		
-		//dryRun = false
-		//tags = "@cal and @sub"
+		dryRun = false,
+		plugin = {
+					"pretty",
+					"html:target/cucumber1.html",
+					"json:target/cucumber1.json",
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				 }
+		
 		
 )
 

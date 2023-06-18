@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="87.649" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Salesforce login Functionality" name="Select user menu dropdown in homepage" time="20.3">
+<system-out><![CDATA[
+Given application is up and running and in loginPage........................passed
+When user on "LoginPage"....................................................passed
+When user enters correct username and correct password......................passed
+And click on the login button...............................................passed
+When user on "Homepage".....................................................passed
+Then Validate the home page title...........................................passed
+When user click on for user menu dropdown in homepage.......................passed
+Then user menu dropdown list is displayed...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salesforce login Functionality" name="Unsuccessful login to salesforce application" time="10.853">
+<system-out><![CDATA[
+Given application is up and running and in loginPage........................passed
+When user on "LoginPage"....................................................passed
+When user enters username and leave the password field empty................passed
+And click on the login button...............................................passed
+Then Error message should be displayed in Loginpage and validate the error message.passed
+]]></system-out>
+</testcase>
+<testcase classname="Salesforce login Functionality" name="Successful Login to salesforce application" time="15.446">
+<system-out><![CDATA[
+Given application is up and running and in loginPage........................passed
+When user on "LoginPage"....................................................passed
+When user enters correct username and correct password......................passed
+And click on the login button...............................................passed
+When user on "Homepage".....................................................passed
+Then Validate the home page title...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salesforce login Functionality" name="Select rememberme checkbox in login page" time="19.762">
+<system-out><![CDATA[
+Given application is up and running and in loginPage........................passed
+When user on "LoginPage"....................................................passed
+When user enters correct username and correct password......................passed
+And select the rememberme checkbox..........................................passed
+And click on the login button...............................................passed
+When user on "Homepage".....................................................passed
+Then Validate the home page title...........................................passed
+And user click on the usermenu dropdown.....................................passed
+And click on the logout.....................................................passed
+Then validate the username field in the loginpage...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salesforce login Functionality" name="Forgot Password without entering username and password" time="9.427">
+<system-out><![CDATA[
+Given application is up and running and in loginPage........................passed
+When user on "LoginPage"....................................................passed
+And user clicks on forgot password link.....................................passed
+When user on "ForgotpasswordPage"...........................................passed
+When user provide username in forgot password page..........................passed
+And click on the continue button............................................passed
+Then password reset message is displayed....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Salesforce login Functionality" name="Validate login error message if user enters incorrect username and incorrect password" time="10.691">
+<system-out><![CDATA[
+Given application is up and running and in loginPage........................passed
+When user on "LoginPage"....................................................passed
+When When user enters incorrect username and incorrect password.............passed
+And click on the login button...............................................passed
+Then error message should be displayed in loginpage.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

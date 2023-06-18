@@ -11,9 +11,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
-import salesforce.SalesForceBaseTest;
-import utilities.ExtentReportsUtility;
 import utilities.Log4jutility;
 
 public class BasePage 
@@ -21,9 +18,9 @@ public class BasePage
 	
 	protected static WebDriver driver;
 	protected WebDriverWait wait;
-	//protected Log4jutility logObject = Log4jutility.getInstance();
+	protected Log4jutility logObject = Log4jutility.getInstance();
 	//protected ExtentReportsUtility report = ExtentReportsUtility.getInstance();
-	protected Logger log = LogManager.getLogger(SalesForceBaseTest.class.getName());
+	protected Logger log;
 	
 	
 	public BasePage(WebDriver driver)
@@ -31,7 +28,7 @@ public class BasePage
 		this.driver = driver;
 		System.out.println("driver in basepage = " + driver);
 		PageFactory.initElements(driver, this);
-		//logObject.getLogger();
+		log = logObject.getLogger();
 	}
 	
 	
@@ -40,7 +37,7 @@ public class BasePage
 		WebElement errorMsgElement = driver.findElement(By.id("error"));
 		Assert.assertEquals(errorMsgElement.getText(), expectedStringValue, "Fail,Error message not matched");
 		ExplicitWaitElement(errorMsgElement);
-		log.info("Error message matched");
+		//log.info("Error message matched");
 	}
 	
 	public void assertPageTitle(String expectedTitle)

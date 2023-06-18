@@ -1,6 +1,8 @@
 package com.CucumberTest.steps;
 
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -10,16 +12,22 @@ import automationHomepages.HomePage;
 import automationLoginPages.ForgotPasswordPage;
 import automationLoginPages.LoginPage;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.Log4jutility;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import utilities.PropertiesUtility;
 
@@ -90,6 +98,7 @@ public class SalesforceStepDef
 	public static void setUpBeforeAllScenarios() 
 	{
 		log=logObject.getLogger();
+		System.out.println("Before all scenarios gets executed");
 	}
 	@Before
 	public void setUpEachScenario() 
@@ -102,6 +111,16 @@ public class SalesforceStepDef
 	public void tearDown() throws InterruptedException 
 	{
 		closeBrowser();
+	}
+	
+	@AfterStep
+	public void addScreenshot(Scenario scenario) throws IOException {
+		if(scenario.isFailed()) {
+		  File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		  byte[] fileContent = FileUtils.readFileToByteArray(screenshot);
+		  scenario.attach(fileContent, "image/png", "screenshot");
+		}
+		
 	}
 	
 	@Given("application is up and running and in loginPage")
